@@ -1,0 +1,37 @@
+{
+  "online": {
+    "processes": [
+      {
+        "name": "curationapp",
+        "algorithmName": "main",
+        "namespace": "",
+        "algorithmTitle": {
+          "pt-br": "Curation App",
+          "en-US": "Curation App"
+        },
+        "algorithmDescription": {
+          "pt-br": "Curation App",
+          "en-US": "Curation App"
+        },
+        "instanceProperties": {
+          "profile": "",
+          "properties": {
+            "dockerImage": "curationapp/curationapp:1.0.0",
+            "instanceType": "c1.medium"
+          }
+        }
+      }
+    ]
+  },
+  "docker": [
+    {
+      "dockerName": "curationapp",
+      "dockerTag": "1.0.0",
+      "gitBranch": "main",
+      "gitPath": "/",
+      "instanceType": "c1.medium",
+      "gitDockerfileName": "Dockerfile", 
+      "gitRepoUrl": "https://github.com/JuvenalDuarte/online-app-curatorship"
+    }
+  ]
+}
