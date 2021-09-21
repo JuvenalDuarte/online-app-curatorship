@@ -17,7 +17,7 @@
           "profile": "",
           "properties": {
             "dockerImage": "curationapp/curationapp:1.0.0",
-            "instanceType": "c1.medium"
+            "instanceType": "c1.micro"
           }
         }
       }
@@ -29,7 +29,7 @@
       "dockerTag": "1.0.0",
       "gitBranch": "main",
       "gitPath": "/",
-      "instanceType": "c1.medium",
+      "instanceType": "c1.micro",
       "gitDockerfileName": "Dockerfile", 
       "gitRepoUrl": "https://github.com/JuvenalDuarte/online-app-curatorship"
     }
