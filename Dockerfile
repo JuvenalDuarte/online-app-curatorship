@@ -16,6 +16,4 @@ RUN cp .streamlit/credentials.toml ~/.streamlit/credentials.toml
 RUN rm -rf tmp
 EXPOSE 5000
 
-ENTRYPOINT ["streamlit", "run"]
-
-CMD ["main.py"]
+CMD streamlit run main.py
