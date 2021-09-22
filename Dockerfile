@@ -16,4 +16,4 @@ RUN cp .streamlit/credentials.toml ~/.streamlit/credentials.toml
 RUN rm -rf tmp
 EXPOSE 5000
 
-CMD streamlit run main.py
+CMD streamlit run --server.port 5000 main.py
