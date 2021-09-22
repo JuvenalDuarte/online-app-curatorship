@@ -9,10 +9,6 @@ RUN pip install -r requirements.txt
 
 ADD . /app
 
-RUN mkdir ~/.streamlit
-RUN cp .streamlit/config.toml ~/.streamlit/config.toml
-RUN cp .streamlit/credentials.toml ~/.streamlit/credentials.toml
-
 RUN rm -rf tmp
 EXPOSE 5000
 
